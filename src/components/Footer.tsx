@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12">
           {/* Logo and subtitle */}
           <div>
-            <Link to="/" className="text-md tracking-[0.3em] font-light mb text-atlas-dark hover:text-atlas-gold transition-colors duration-300">
+            <Link to="/" className="text-xl tracking-[0.3em] font-light mb text-atlas-dark hover:text-atlas-gold transition-colors duration-300">
               ATLAS
             </Link>
             <div className="text-xs tracking-wide text-atlas-dark/60">
@@ -39,7 +39,7 @@ const Footer = () => {
 
         {/* Bottom section */}
         <div className="border-t border-atlas-dark/10 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-atlas-dark/50">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-x text-atlas-dark/50">
             <p>© 2026 ATLAS. All rights reserved.</p>
             <p>Miami</p>
           </div>
