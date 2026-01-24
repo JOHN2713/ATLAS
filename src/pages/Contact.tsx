@@ -46,7 +46,7 @@ const Contact = () => {
       </section>
 
       {/* Form and Contact Info Grid */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-2">
         <div className="container-custom max-w-6xl">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
             {/* Form Section */}
@@ -108,7 +108,7 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  className="inline-flex items-center gap-3 border border-atlas-dark px-10 py-4 text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:bg-atlas-dark hover:text-atlas-primary group"
+                  className="inline-flex items-center gap-3 border border-atlas-dark px-10 py-4 text-x tracking-[0.2em] uppercase transition-all duration-300 hover:bg-atlas-dark hover:text-atlas-primary group"
                 >
                   SUBMIT INQUIRY
                   <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
@@ -152,13 +152,14 @@ const Contact = () => {
                 </div>
 
                 {/* Additional Info */}
-                <div className="pt-8 border-t border-atlas-dark/10 space-y-4 text-sm leading-relaxed text-atlas-dark/60">
+                <div className="pt-8 border-t border-atlas-dark/10 space-y-4 text-xl leading-relaxed text-atlas-dark/60">
                   <p>
                     All inquiries are reviewed personally and handled with complete discretion. We respond to serious inquiries within a reasonable timeframe.
                   </p>
                   <p>
                     Please note that ATLAS works with a limited number of families. Not all inquiries will result in an engagement, but all will receive a thoughtful response.
                   </p>
+                  <p><br></br></p>
                 </div>
               </div>
             </motion.div>

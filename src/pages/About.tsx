@@ -80,6 +80,7 @@ const About = () => {
                 TALK TO AN EXPERT
                 <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
               </a>
+              <p><br></br></p>
             </div>
           </motion.div>
         </div>
