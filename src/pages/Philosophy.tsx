@@ -115,7 +115,7 @@ const Philosophy = () => {
                         isDark ? 'text-atlas-primary/60 hover:text-atlas-primary' : 'text-atlas-dark/50 hover:text-atlas-dark'
                       }`}
                     >
-                      BEGIN A CONVERSATION
+                      TALK TO AN EXPERT
                       <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
                     </a>
                   </div>

@@ -171,7 +171,7 @@ const InsightsPage = () => {
               href="#contact"
               className="inline-flex items-center gap-3 border border-atlas-dark px-10 py-4 text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:bg-atlas-dark hover:text-atlas-primary group"
             >
-              BEGIN A CONVERSATION
+              TALK TO AN EXPERT
               <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
             </a>
           </motion.div>

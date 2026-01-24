@@ -16,7 +16,7 @@ const Contact = () => {
               <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
             </svg>
             <h2 className="text-xs tracking-[0.3em] uppercase text-atlas-primary/80">
-              BEGIN A CONVERSATION
+              TALK TO AN EXPERT
             </h2>
           </div>
           
