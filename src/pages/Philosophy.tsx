@@ -51,7 +51,7 @@ const Philosophy = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-20 md:pt-40 md:pb-32">
+      <section className="pt-32 pb-12 md:pt-40 md:pb-2">
         <div className="container-custom max-w-5xl">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -61,7 +61,7 @@ const Philosophy = () => {
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-light mb-8 text-atlas-dark">
               Philosophy
             </h1>
-            <p className="text-lg md:text-xl text-atlas-dark/70 font-light max-w-3xl">
+            <p className="text-lg md:text-2xl text-atlas-dark/70 font-light max-w-3xl">
               The principles that guide our work and the convictions that shape our counsel.
             </p>
           </motion.div>
@@ -77,7 +77,7 @@ const Philosophy = () => {
           return (
             <section 
               key={principle.title} 
-              className={`py-16 md:py-24 ${
+              className={`py-12 md:py-16 ${
                 isDark ? 'bg-[#0a1624]' : 
                 isSecondary ? 'bg-[#ebe7e0]' : ''
               }`}
@@ -97,7 +97,7 @@ const Philosophy = () => {
                   
                   <div className="space-y-5">
                     {principle.content.map((paragraph, pIndex) => (
-                      <p key={pIndex} className={`text-sm md:text-base leading-relaxed ${
+                      <p key={pIndex} className={`text-base md:text-2xl leading-relaxed ${
                         isDark ? 'text-atlas-primary/80' : 'text-atlas-dark/60'
                       }`}>
                         {paragraph}
@@ -135,7 +135,7 @@ const Philosophy = () => {
             viewport={{ once: true }}
             className="text-center"
           >
-            <p className="text-lg md:text-xl font-light text-atlas-dark/80 mb-12">
+            <p className="text-lg md:text-3xl font-light text-atlas-dark/80 mb-12">
               These principles are not strategies. They are convictions. They guide every conversation, every recommendation, and every relationship we build.
             </p>
             
@@ -143,7 +143,7 @@ const Philosophy = () => {
               href="#contact"
               className="inline-flex items-center gap-3 border border-atlas-dark px-10 py-4 text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:bg-atlas-dark hover:text-atlas-primary group"
             >
-              DISCUSS OUR APPROACH
+              TALK TO AN EXPERT
               <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
             </a>
           </motion.div>
