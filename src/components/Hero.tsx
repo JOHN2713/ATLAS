@@ -45,7 +45,7 @@ const Hero = () => {
             transition={{ delay: 0.3 }}
             className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-serif font-light leading-relaxed mb-12 md:mb-16 text-atlas-dark max-w-4xl mx-auto px-4"
           >
-            Structure over speculation. Discretion over exposure. Long-term clarity.
+            Structure over speculation. Discretion over exposure. <br></br>Long-term clarity.
           </motion.p>
 
           {/* Founder info */}
@@ -72,7 +72,7 @@ const Hero = () => {
               href="#contact"
               className="inline-flex items-center gap-2 border border-atlas-dark px-6 sm:px-8 py-3 text-[10px] sm:text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:bg-atlas-dark hover:text-atlas-primary group"
             >
-              REQUEST A CONVERSATION
+              TALK TO AN EXPERT
               <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
             </a>
           </div>

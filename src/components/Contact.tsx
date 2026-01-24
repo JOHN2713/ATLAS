@@ -53,7 +53,7 @@ const Contact = () => {
               href="mailto:contact@atlas.com"
               className="inline-flex items-center gap-3 border border-atlas-primary/70 px-10 py-4 text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:bg-atlas-primary hover:text-atlas-dark group"
             >
-              REQUEST A PRIVATE CONVERSATION
+              TALK TO AN EXPERT
               <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
             </a>
           </motion.div>
