@@ -79,6 +79,7 @@ const ArticleStructureOverSpeculation = () => {
               <p className="text-lg">
                 We believe that properly structured wealth has the best chance of surviving not just market cycles, but generational transitions. This is the work we do.
               </p>
+              <p><br></br></p>
             </div>
           </motion.div>
         </div>

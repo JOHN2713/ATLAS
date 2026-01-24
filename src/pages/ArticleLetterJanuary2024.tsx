@@ -92,6 +92,7 @@ const ArticleLetterJanuary2024 = () => {
                 Gonzalo Martinez<br />
                 Managing Partner, ATLAS
               </p>
+              <p><br></br></p>
             </div>
           </motion.div>
         </div>

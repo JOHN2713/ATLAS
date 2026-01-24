@@ -79,6 +79,7 @@ const ArticleGovernanceAndClarity = () => {
               <p className="text-lg">
                 The families that preserve wealth across generations share certain characteristics. They communicate openly about money. They prepare heirs deliberately. They have clear processes for making decisions together. They understand that wealth preservation is ultimately a human challenge, not a financial one.
               </p>
+              <p><br></br></p>
             </div>
           </motion.div>
         </div>
