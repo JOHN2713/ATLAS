@@ -150,14 +150,14 @@ const About = () => {
               </div>
 
               <div className="flex-1">
-                <h3 className="text-xl font-serif font-light mb-2 text-atlas-dark">
+                <h3 className="text-3xl font-serif font-light mb-2 text-atlas-dark">
                   Gonzalo Martinez
                 </h3>
                 <p className="text-xs tracking-wider uppercase text-atlas-dark/50 mb-6">
                   Managing Partner
                 </p>
                 
-                <div className="space-y-4 text-sm leading-relaxed text-atlas-dark/60">
+                <div className="space-y-4 text-lg leading-relaxed text-atlas-dark/60">
                   <p>
                     Gonzalo Martinez founded ATLAS to address a gap he observed in how significant wealth is managed and transferred across generations. After two decades working with ultra-high-net-worth families across the Americas and Europe, he recognized that the industry's incentives were misaligned with the long-term interests of the families it served.
                   </p>
@@ -175,7 +175,7 @@ const About = () => {
       </section>
 
       {/* Headquarters Section */}
-      <section className="py-16 md:py-24 border-t border-atlas-primary/10 bg-[#0a1624]">
+      <section className="py-16 md:py-26 border-t border-atlas-primary/10 bg-[#0a1624]">
         <div className="container-custom max-w-4xl">
           <motion.div
             initial={{ opacity: 0 }}
@@ -183,13 +183,13 @@ const About = () => {
             viewport={{ once: true }}
             className="text-center"
           >
-            <h3 className="text-xs tracking-[0.3em] uppercase text-atlas-primary/50 mb-4">
+            <h3 className="text-xl tracking-[0.3em] uppercase text-atlas-primary/50 mb-4">
               HEADQUARTERS
             </h3>
             <p className="text-2xl md:text-3xl font-serif font-light text-atlas-primary mb-3">
               Miami
             </p>
-            <p className="text-sm text-atlas-primary/70 mb-12">
+            <p className="text-lg text-atlas-primary/70 mb-12">
               Serving families globally
             </p>
             
@@ -197,7 +197,7 @@ const About = () => {
               href="#contact"
               className="inline-flex items-center gap-3 border border-atlas-primary text-white px-10 py-4 text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:bg-atlas-primary hover:text-atlas-dark group"
             >
-              GET IN TOUCH
+              TALK TO AN EXPERT
               <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
             </a>
           </motion.div>
