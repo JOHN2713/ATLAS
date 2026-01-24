@@ -8,14 +8,14 @@ const Philosophy = () => {
       title: 'Structure Over Speculation',
       content: [
         'The financial industry rewards activity. It celebrates bold predictions, rapid trading, and constant repositioning. This approach may generate fees and excitement, but it rarely preserves wealth across generations.',
-        'We believe in structure—the deliberate design of legal entities, governance frameworks, and investment policies that create clarity and protection. Structure does not guarantee returns. It guarantees process. And process, consistently applied, produces the outcomes that matter: stability, preservation, and peace of mind.',
+        'We believe in structure: the deliberate design of legal entities, governance frameworks, and investment policies that create clarity and protection. Structure does not guarantee returns. It guarantees process. And process, consistently applied, produces the outcomes that matter: stability, preservation, and peace of mind.',
         'When speculation fails, structure remains. When markets panic, structure provides anchor points. When generations change, structure transfers wisdom alongside wealth.',
       ],
     },
     {
       title: 'Discipline',
       content: [
-        'Discipline is the practice of doing less, not more. It is the restraint to avoid action when action feels urgent. It is the patience to let decades unfold rather than reacting to quarters.',
+        'Discipline is the commitment to consistent action aligned with long-term strategy not reaction, but intention repeated over time. It is the patience to let decades unfold rather than reacting to quarters.',
         'The greatest threats to wealth are rarely external. They are internal: the impulse to chase performance, the fear that drives panic selling, the boredom that leads to unnecessary complexity. Discipline protects against these threats.',
         'We counsel restraint. We design portfolios that can be maintained. We create processes that reduce the opportunity for impulsive decisions. We believe that the best financial decisions are often the ones not made.',
       ],
@@ -25,7 +25,7 @@ const Philosophy = () => {
       content: [
         'Wealth without governance is wealth without direction. It becomes a source of conflict rather than opportunity, a burden rather than a blessing.',
         'Governance answers the questions that legal documents cannot: Who decides? How are disagreements resolved? What values guide choices? What responsibilities accompany privilege?',
-        'We help families establish governance frameworks appropriate to their circumstances. These frameworks provide clarity—not control. They create space for individual expression within shared boundaries. They transform wealth from a potential source of division into a foundation for shared purpose.',
+        'We help families establish governance frameworks appropriate to their circumstances. These frameworks provide clarity not control. They create space for individual expression within shared boundaries. They transform wealth from a potential source of division into a foundation for shared purpose.',
       ],
     },
     {
