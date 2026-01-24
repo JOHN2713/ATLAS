@@ -43,7 +43,7 @@ const ArticleGovernanceAndClarity = () => {
       </section>
 
       {/* Article Content */}
-      <section className="py-16">
+      <section className="py">
         <div className="container-custom max-w-3xl">
           <motion.div
             initial={{ opacity: 0 }}

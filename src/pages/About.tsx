@@ -45,7 +45,7 @@ const About = () => {
       </section>
 
       {/* The Platform Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-2">
         <div className="container-custom max-w-4xl">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -58,16 +58,16 @@ const About = () => {
             </h2>
             
             <div className="space-y-5">
-              <p className="text-sm md:text-base leading-relaxed text-atlas-dark/60">
-                ATLAS is not a wealth management firm in the conventional sense. It is a platform—a structure designed to support the long-term stewardship of significant capital.
+              <p className="text-base md:text-2xl leading-relaxed text-atlas-dark/60">
+                ATLAS is not a wealth management firm in the conventional sense. It is a platform: a structure designed to support the long-term stewardship of significant capital.
               </p>
-              <p className="text-sm md:text-base leading-relaxed text-atlas-dark/60">
+              <p className="text-base md:text-2xl leading-relaxed text-atlas-dark/60">
                 We do not sell financial products. We do not manage assets in the traditional sense. We do not seek to maximize assets under management or client count. Our model is fundamentally different because our objectives are fundamentally different.
               </p>
-              <p className="text-sm md:text-base leading-relaxed text-atlas-dark/60">
+              <p className="text-base md:text-2xl leading-relaxed text-atlas-dark/60">
                 ATLAS exists to provide structure, governance, and clarity to individuals and families who have already achieved significant wealth. Our role is to help them preserve and transfer that wealth across generations—not through aggressive strategies or speculative investments, but through careful architecture and disciplined stewardship.
               </p>
-              <p className="text-sm md:text-base leading-relaxed text-atlas-dark/60">
+              <p className="text-base md:text-2xl leading-relaxed text-atlas-dark/60">
                 The platform brings together expertise in capital structure, family governance, intergenerational planning, and strategic advisory. Each engagement is tailored to the specific circumstances, objectives, and values of the families we serve.
               </p>
             </div>
@@ -107,10 +107,10 @@ const About = () => {
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
                 >
-                  <h3 className="text-lg font-serif font-normal mb-4 text-atlas-dark">
+                  <h3 className="text-2xl font-serif font-normal mb-4 text-atlas-dark">
                     {item.title}
                   </h3>
-                  <p className="text-sm leading-relaxed text-atlas-dark/60">
+                  <p className="text-xl leading-relaxed text-atlas-dark/60">
                     {item.description}
                   </p>
                 </motion.div>
