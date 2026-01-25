@@ -67,7 +67,6 @@ const Hero = () => {
           className="flex flex-col items-center gap-6 md:gap-8"
         >
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <span className="text-[10px] sm:text-xs tracking-[0.2em] uppercase text-atlas-dark/70">SCROLL</span>
             <a
               href="#contact"
               className="inline-flex items-center gap-2 border border-atlas-dark px-6 sm:px-8 py-3 text-[10px] sm:text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:bg-atlas-dark hover:text-atlas-primary group"
