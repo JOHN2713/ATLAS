@@ -114,6 +114,7 @@ const Contact = () => {
                   <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
                 </button>
               </form>
+              <br></br>
             </motion.div>
 
             {/* Contact Info Section */}
