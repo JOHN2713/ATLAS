@@ -168,7 +168,7 @@ const InsightsPage = () => {
             viewport={{ once: true }}
           >
             <a
-              href="#contact"
+              href="/contact"
               className="inline-flex items-center gap-3 border border-atlas-dark px-10 py-4 text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:bg-atlas-dark hover:text-atlas-primary group"
             >
               TALK TO AN EXPERT

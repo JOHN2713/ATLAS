@@ -110,7 +110,7 @@ const Philosophy = () => {
                     isDark ? 'border-atlas-primary/20' : 'border-atlas-dark/10'
                   }`}>
                     <a
-                      href="#contact"
+                      href="/contact"
                       className={`inline-flex items-center gap-2 text-xs tracking-[0.2em] uppercase transition-colors duration-300 group ${
                         isDark ? 'text-atlas-primary/60 hover:text-atlas-primary' : 'text-atlas-dark/50 hover:text-atlas-dark'
                       }`}
@@ -140,7 +140,7 @@ const Philosophy = () => {
             </p>
             
             <a
-              href="#contact"
+              href="/contact"
               className="inline-flex items-center gap-3 border border-atlas-dark px-10 py-4 text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:bg-atlas-dark hover:text-atlas-primary group"
             >
               TALK TO AN EXPERT

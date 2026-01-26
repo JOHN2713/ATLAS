@@ -50,7 +50,7 @@ const Contact = () => {
             transition={{ delay: 0.5 }}
           >
             <a
-              href="mailto:contact@atlas.com"
+              href="/contact"
               className="inline-flex items-center gap-3 border border-atlas-primary/70 px-10 py-4 text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:bg-atlas-primary hover:text-atlas-dark group"
             >
               TALK TO AN EXPERT

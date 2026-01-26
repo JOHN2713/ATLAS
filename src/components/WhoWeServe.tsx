@@ -145,7 +145,7 @@ const WhoWeServe = () => {
             className="text-center"
           >
             <a
-              href="#contact"
+              href="/contact"
               className="inline-flex items-center gap-2 text-[10px] tracking-[0.3em] uppercase text-atlas-gold hover:text-atlas-dark transition-colors duration-300 group"
             >
               TALK TO AN EXPERT

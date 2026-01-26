@@ -69,7 +69,7 @@ const WhatIsAtlas = () => {
             className="mt-16"
           >
             <a
-              href="#contact"
+              href="/contact"
               className="inline-flex items-center gap-2 text-sm tracking-[0.2em] uppercase text-atlas-primary/80 hover:text-atlas-primary transition-colors duration-300 group"
             >
               TALK TO AN EXPERT

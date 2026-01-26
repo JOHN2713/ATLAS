@@ -68,7 +68,7 @@ const Principles = () => {
           className="text-center md:text-left md:pl-24"
         >
           <a
-            href="#contact"
+            href="/contact"
             className="inline-flex items-center gap-2 text-xs tracking-[0.2em] uppercase text-atlas-dark/60 hover:text-atlas-dark transition-colors duration-300 group"
           >
             TALK TO AN EXPERT
